@@ -6,7 +6,7 @@ export default class app extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            name : "Abc"
+            name : "fff"
         }
     }
 
@@ -20,6 +20,7 @@ return(
     <Text style = {{fontSize : 20,color : violet}}>Hello world</Text>
     <Text style = {{fontSize : 20,color : violet}}>Student</Text>
     </View>
+
 ) 
 }
 }
