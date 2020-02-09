@@ -8,7 +8,9 @@ export default class app extends Component {
         this.state = {
             name : "Abc",
             age : 22,
-            place : cbe
+            place : cbe,
+            gender : male,
+            phone : 123
         }
     }
 
