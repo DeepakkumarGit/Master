@@ -22,7 +22,7 @@ render() {
 return(
     <View style = {styles.container}>
     <Text style = {{fontSize : 20,color : violet}}>Hello world</Text>
-    <Text style = {{fontSize : 20,color : violet}}>Student</Text>
+<Text style = {{fontSize : 20,color : violet}}>{this.state.name}</Text>
     </View>
 ) 
 }
