@@ -5,6 +5,9 @@ import { View, Text,StyleSheet} from 'react-native'
 export default class app extends Component {
     constructor(props) {
         super(props)
+        this.state = {
+            name : "Abc"
+        }
     }
 
     componentDidMount() {
