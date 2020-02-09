@@ -1,16 +1,28 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text,StyleSheet} from 'react-native'
+
 
 export default class app extends Component {
     constructor(props) {
         super(props)
     }
+
+    componentDidMount() {
+
+    }
+
 render() {
 return(
-    <View>
+    <View style = {styles.container}>
     <Text style = {{fontSize : 20,color : violet}}>Hello world</Text>
     <Text style = {{fontSize : 20,color : violet}}>Student</Text>
     </View>
 ) 
 }
 }
+
+const styles = StyleSheet.create({
+    container : {
+        flex : 1
+    }
+})
