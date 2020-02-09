@@ -1,13 +1,29 @@
-import React,{Component} from 'react'
-import {View,Text} from 'react-native'
+import React, { Component } from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 
 export default class app extends Component {
-render() {
-return(
-    <View>
-    <Text style = {{fontSize : 20,color : green}}>Hello world</Text>
-    <Text style = {{fontSize : 20,color : green}}>Student</Text>
-    </View>
-) 
+    constructor(props) {
+        super(props)
+    }
+
+    componentDidMount() {
+
+    }
+
+    render() {
+        return (
+            <View style={styles.container}>
+                <Text style={{ fontSize: 20, color: violet }}>Hello world</Text>
+                <Text style={{ fontSize: 20, color: violet }}>Student</Text>
+            </View>
+        )
+    }
 }
-}
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        alignItems : 'center',
+        justifyContent : 'center'
+    }
+})
