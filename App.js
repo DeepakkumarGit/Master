@@ -5,6 +5,11 @@ export default class app extends Component {
     constructor(props) {
         super(props)
     }
+
+    componentDidMount() {
+
+    }
+    
 render() {
 return(
     <View>
